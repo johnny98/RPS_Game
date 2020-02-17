@@ -65,6 +65,7 @@ class RpsGame(Frame):
         updated_picture = ImageTk.PhotoImage(Image.open(myimg))
         w.configure(image = updated_picture)
 
+#game logic to add after wards 
 def game_logic():
     # create a list of play options
     play_options = ["rock", "paper", "scissors"]
