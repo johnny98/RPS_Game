@@ -73,8 +73,10 @@ class RpsGame(Frame):
         self.imageLabel.configure(image = self.updated_picture)
             
 
-    def win_streak(self):
-        return 0
+    def win_streak(self,count):
+        total = 0
+        total += count
+        return total
 
     #game logic to add after wards 
     def game_logic(self):
